@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+            <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!--========== nav ============-->
+
+  <nav class="nav">
+    <div class="nav-img-container">
+      <img src="images/logo.svg" class="logo" alt="Fylo logo" />
+    </div>
+
+    <ul class="nav-options">
+  <li><a href="/">Features</a></li>
+  <li><a href="/">Team</a></li>
+  <li><a href="/">Sign In</a></li>
+    </ul>
+
+    <div class="background-img-container">
+    </div>
+  </nav>
+  <!--========== main ============-->
+
+  <main class="fylo-container">
+
+    <div class="main-img-container">
+      <img src="images/illustration-intro.png" alt="folder with two miniature people pulling papers off from it" class="main-img" />
+    </div>
+
+  <h1 class="title">All your files in one secure location, accessible anywhere.</h1>
+
+  <p class="description">Fylo stores all your most important files in one secure location. Access them wherever 
+  you need, share and collaborate with friends family, and co-workers.</p>
+
+  <button class="get-started-btn" type="text">Get Started</button>
+
+  <!--========== icons ============-->
+
+  <div class="icons-container">
+
+    <div class="access-anywhere iconn">
+      <img src="images/icon-access-anywhere.svg" alt="computer and phone icon" class="icon" />
+
+  <h3 class="icon-title">Access your files, anywhere</h3>
+
+  <p class="icon-description">The ability to use a smartphone, tablet, or computer to access your account means your 
+  files follow you everywhere.</p>
+  </div>
+
+  <div class="security iconn">
+    <img src="images/icon-security.svg" alt="shield with a checkmark inside icon" class="icon" />
+
+  <h3 class="icon-title">Security you can trust</h3>
+
+  <p class="icon-description">2-factor authentication and user-controlled encryption are just a couple of the security 
+  features we allow to help secure your files.</p>
+  </div>
+
+  <div class="collaboration iconn">
+    <img src="images/icon-collaboration.svg" alt="checkmark with 3 miniature people icon" class="icon" />
+
+  <h3 class="icon-title">Real-time collaboration</h3>
+
+  <p class="icon-description">Securely share files and folders with friends, family and colleagues for live collaboration. 
+  No email attachments required.</p>
+  </div>
+
+  <div class="store iconn">
+    <img src="images/icon-any-file.svg" alt="folder icon" class="icon" />
+
+  <h3 class="icon-title">Store any type of file</h3>
+
+  <p class="icon-description">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+  file types to be securely stored and shared.</p>
+  </div>
+  </div>
+
+    <!--========== end of icons ============-->
+
+  <div class="second-img-container">
+    <img src="images/illustration-stay-productive.png" alt="people writing on board image" class="second-img" />
+  </div>
+
+
+  <h2 class="productive">Stay productive, wherever you are</h2>
+
+  <p class="productive-description">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+  storage needs.</p>
+
+  <p class="productive-description">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+  attachments required.</p>
+
+  <a href="/" class="link">
+    See how Fylo works
+    <span><img src="images/icon-arrow.svg" alt="arrow" class="arrow" /></span>
+  </a>
+  <!--========== reviews ============-->
+
+  <div class="reviews">
+    <div class="review review-1">
+
+      <img src="images/bg-quotes.png" alt="quotes" class="quotes" />
+
+  <p class="review-description">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.</p>
+
+  <div class="profile-pic-container">
+    <img src="images/profile-1.jpg" alt="profile picture" class="profile-pic" />
+  </div>
+
+  <h4 class="name">Satish Patel</h4>
+  <h5 class="position">Founder & CEO, Huddle</h5>
+    </div>
+
+    <div class="review review-2">
+
+  <p class="review-description">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.</p>
+
+  <div class="profile-pic-container">
+    <img src="images/profile-2.jpg" alt="profile picture" class="profile-pic" />
+  </div>
+
+  <h4 class="name">Bruce McKenzie</h4>
+  <h5 class="position">Founder & CEO, Huddle</h5>
+</div>
+
+<div class="review review-3">
+
+  <p class="review-description">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.</p>
+
+  <div class="profile-pic-container">
+    <img src="images/profile-3.jpg" alt="profile picture" class="profile-pic" />
+  </div>
+
+  <h4 class="name">Iva Boyd</h4>
+  <h5>Founder & CEO, Huddle</h5>
+</div>
+
+  </div>
+
+  </main>
+
+    <!--========== footer ============-->
+
+  <footer class="footer">
+
+  <!--========== early access form ============-->
+
+
+    <div class="form">
+      <h3 class="form-title">Get early access today</h3>
+    
+      <p class="form-description">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+      questions, our support team would be happy to help you.</p>
+    
+      <input type="text" class="input" placeholder="email@example.com" />
+
+      <div class="error"></div>
+    
+      <button class="form-btn" type="submit">Get Started For Free</button>
+      </div>
+
+  <!--========== end of early access form ============-->
+
+
+    <div class="logo-location">
+      <img src="images/logo.svg" alt="logo" class="footer-logo" />
+
+  <p class="footer-description">
+    <span><img src="images/icon-location.svg" alt="location icon" class="location" /></span>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+  dolore magna aliqua<p>
+  </div>
+
+  <div class="contact-info">
+  <p class="phone-info"><span><img src="images/icon-phone.svg" alt="phone" class="phone" /></span>+1-543-123-4567</p>
+  <p class="email-info"><span><img src="images/icon-email.svg" alt="email" class="email" /></span>example@fylo.com</p>
+  </div>
+
+  <ul class="footer-options about-us">
+  <li><a href="/">About Us</a></li>
+  <li><a href="/">Jobs</a></li>
+  <li><a href="/">Press</a></li>
+  <li><a href="/">Blog</a></li>
+  </ul>
+
+  <ul class="footer-options contact-us">
+  <li><a href="/">Contact Us</a></li>
+  <li><a href="/">Terms</a></li>
+  <li><a href="/">Privacy</a></li>
+  </ul>
+
+  <div class="media-logos">
+    <a href="/"><ion-icon class="social" size="large" name="logo-facebook"></ion-icon></a>
+    <a href="/"><ion-icon class="social" size="large" name="logo-twitter"></ion-icon></a>
+    <a href="/"><ion-icon class="social" size="large" name="logo-instagram"></ion-icon></a>
+  </div>
+  
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="index.js"></script>
+
+</body>
+</html>
